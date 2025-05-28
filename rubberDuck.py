@@ -20,12 +20,12 @@ class RubberDuck:
 
     @classmethod
     def set_color(cls, new_color: str) -> None:
+        # set
         if not new_color:
             raise ValueError("Color cannot be empty")
         cls.__color = new_color
-
+    # Regular methode
     def boost_volume(self) ->None:
-        # Instance method: modifies the specific object's state
         self.__quack_volume += 1
 
     @property
@@ -42,5 +42,5 @@ class RubberDuck:
 
     def __str__(self):
         # Special method dunder that defines the string representation of the object
-        return f"RubberDuck(quack_volume={self.__quack_volume}, color={self.__color})"
+        return f"RubberDuck(quack_volume={self.__quack_volume}, color={RubberDuck.__color})"
 

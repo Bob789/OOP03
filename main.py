@@ -30,5 +30,8 @@ duck.set_color('Blue')
 # After change color to new color
 print("New color update:", RubberDuck.get_color())  # Output: Blue
 
+duck2 = RubberDuck()
+print("duck2 :", duck2 )
+
 
 
