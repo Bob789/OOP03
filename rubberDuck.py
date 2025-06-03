@@ -34,7 +34,7 @@ class RubberDuck:
         return self.__quack_volume
 
     @quack_volume.setter
-    def quack_volume(self, value) ->int:
+    def quack_volume(self, value):
         # Setter with validation for '__quack_volume'
         if value < 0:
             raise ValueError("Volume must be a non-negative integer")
