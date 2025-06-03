@@ -15,7 +15,7 @@ duck.quack_volume = 10
 # Access the updated quack_volume using the property getter
 print("New volume:", duck.quack_volume)  # Output: 10
 
-# Increase the volume by 1 using static methode
+# Increase the volume by doubling  using static methode
 duck.boost_volume()
 
 # Print the new volume after boost
