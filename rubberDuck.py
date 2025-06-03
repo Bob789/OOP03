@@ -26,7 +26,7 @@ class RubberDuck:
         cls.__color = new_color
     # Regular methode
     def boost_volume(self) ->None:
-        self.__quack_volume += 1
+        self.__quack_volume *= 2
 
     @property
     def quack_volume(self) ->int:
