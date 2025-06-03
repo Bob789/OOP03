@@ -19,7 +19,7 @@ class RubberDuck:
         return cls.__color
 
     @classmethod
-    def set_color(cls, new_color: str) -> None:
+    def set_color(cls, new_color: str):
         # set
         if not new_color:
             raise ValueError("Color cannot be empty")
